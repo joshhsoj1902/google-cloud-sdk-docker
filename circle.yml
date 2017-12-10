@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/gcloud
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: "Build Image"
+          command: |
+            make build
