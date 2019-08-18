@@ -1,3 +1,3 @@
-FROM google/cloud-sdk:alpine@sha256:0ab82292930cf4dfa6594c4b7e4d23eda82f7e7fde239ec03a2d28f6fe9cd2b1
+FROM google/cloud-sdk:alpine@sha256:9c1c4feadb18101b19074c2208c470d08e9e465e364c5445da81a9598f150446
 
 RUN apk --no-cache add docker
